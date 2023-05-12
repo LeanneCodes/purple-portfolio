@@ -4,7 +4,7 @@ import './projectcard.css'
 const ProjectCard = ({ img, name, tech, summary, url  }) => {
   return (
     <div className='project-card'>
-      <div>
+      <div className='project-image'>
         <img src={img} alt="project-image" />
       </div>
       <div className='project-content'>
@@ -13,7 +13,7 @@ const ProjectCard = ({ img, name, tech, summary, url  }) => {
           <h4>{tech}</h4>
           <p>{summary}</p>
         </div>
-        <button><a>{url}</a></button>
+        <button><a target='_blank'>{url}</a></button>
       </div>
     </div>
   )
