@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    min-height: 50vh;
 }
 
 .link {
@@ -18,7 +17,7 @@
     font-family: var(--header-font);
     font-weight: 500;
     text-align: center;
-    margin: 0.5rem 0;
+    margin: 1rem 0;
 }
 
 .skills-header h3 {

@@ -1,13 +1,5 @@
 import './App.css'
-// import {
-// 	BrowserRouter as Router,
-// 	Routes,
-// 	Route,
-// 	Link
-// } from 'react-router-dom';
-
-import { Contact, Footer, Intro, Navbar, Projects, Skills } from './containers'
-// import { Awards, NavLinks, ProjectCard, TechStack } from './components'
+import { Footer, Intro, Navbar, Projects, Skills } from './containers'
 
 function App() {
 
@@ -28,10 +20,7 @@ function App() {
         <div className="hr"></div>
           <Projects />
         </div>
-        <div>
         <div className="hr"></div>
-          <Contact />
-        </div>
         <div>
         < Footer />
         </div>

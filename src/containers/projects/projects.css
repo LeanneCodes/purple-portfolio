@@ -3,8 +3,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding: 0 2rem;
-    min-height: 50vh;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .projects-header h1 {
@@ -24,6 +23,24 @@
 
 .projects a {
     width: 48%;
+}
+
+@media screen and (max-width: 2560px) {
+    .projects-container {
+        margin-bottom: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .projects-container {
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .projects-container {
+        margin-bottom: 2.5rem;
+    }
 }
 
 @media screen and (max-width: 390px) {

@@ -1,8 +1,9 @@
 .footer-container {
     display: flex;
     flex-direction: column;
-    padding: 2rem 5rem;
-    height: 200px;
+    padding: 0;
+    margin-bottom: 2rem;
+    height: 140px;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
@@ -22,9 +23,29 @@
 .footer-container ul {
     list-style: none;
     display: flex;
-    width: 10%;
+    width: 8%;
     margin: auto;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-container ul {
+        width: 16%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-container ul {
+        width: 20%;
+    }
+
+    .footer-container {
+        padding: 0;
+    }
+
+    .footer-container {
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 390px) {

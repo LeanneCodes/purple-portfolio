@@ -1,7 +1,9 @@
 import React from 'react'
 import './projectcard.css'
+import { SiGithub } from 'react-icons/si'
+import { BiLink } from 'react-icons/bi'
 
-const ProjectCard = ({ img, name, tech, summary, url }) => {
+const ProjectCard = ({ img, name, tech, summary, code, live }) => {
   return (
     <div className='project-card'>
       <div className='project-image'>
@@ -13,7 +15,12 @@ const ProjectCard = ({ img, name, tech, summary, url }) => {
           <h4>{tech}</h4>
           <p>{summary}</p>
         </div>
-        <button><a target='_blank'>{url}</a></button>
+        <div className='external-link'>
+          <button>
+            <p><SiGithub/> </p>
+            <a className="pc-icons" target='_blank'>{code}</a>
+          </button>
+        </div>
       </div>
     </div>
   )

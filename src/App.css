@@ -28,7 +28,7 @@ a {
   height: 14px;
   background: var(--paper-border);
   box-shadow: 0 2px 4px var(--paper-border);
-  margin: 0 auto 4rem;
+  margin: 2rem auto;
   border-radius: 50%;
 }
 
