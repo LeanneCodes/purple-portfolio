@@ -21,12 +21,15 @@ function App() {
           <Intro />
         </div>
         <div>
+          <div className="hr"></div>
           <Skills />
         </div>
         <div>
+        <div className="hr"></div>
           <Projects />
         </div>
         <div>
+        <div className="hr"></div>
           <Contact />
         </div>
         <div>

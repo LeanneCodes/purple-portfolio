@@ -21,3 +21,13 @@
     justify-content: space-between;
     margin-top: 2rem;
 }
+
+.projects a {
+    width: 48%;
+}
+
+@media screen and (max-width: 390px) {
+    .projects-container {
+        padding: 0;
+    }
+}

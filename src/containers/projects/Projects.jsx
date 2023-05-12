@@ -7,14 +7,13 @@ const Projects = () => {
   return (
     <div className='projects-container' id='projects'>
       <div className='projects-header'>
-        <div className="hr"></div>
         <h1>My Projects</h1>
       </div>
       <div className='projects'>
-        <ProjectCard img={P1} name="Project 1" tech="JS" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip e." url="View project on GitHub" />
-        <ProjectCard img={P1} name="Project 1" tech="JS" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip e." url="View project on GitHub" />
-        <ProjectCard img={P1} name="Project 1" tech="JS" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip e." url="View project on GitHub" />
-        <ProjectCard img={P1} name="Project 1" tech="JS" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip e." url="View project on GitHub" />
+        <a href='#' target='_blank'><ProjectCard img={P1} name="Project 1" tech="JS" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip e." url="View project on GitHub" /></a>
+        <a href='#' target='_blank'><ProjectCard img={P1} name="Project 2" tech="JS" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip e." url="View project on GitHub" /></a>
+        <a href='#' target='_blank'><ProjectCard img={P1} name="Project 3" tech="JS" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip e." url="View project on GitHub" /></a>
+        <a href='#' target='_blank'><ProjectCard img={P1} name="Project 4" tech="JS" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip e." url="View project on GitHub" /></a>
       </div>
     </div>
   )

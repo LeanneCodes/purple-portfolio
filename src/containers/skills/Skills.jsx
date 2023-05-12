@@ -16,9 +16,8 @@ const Skills = () => {
   return (
     <div className='skills-container' id='skills'>
       <div className='skills-header'>
-      <div className="hr"></div>
         <h1>My Skillset</h1>
-        <h3>I have a <a className='link' href='https://www.credential.net/abe70729-0419-4049-a752-62b032d231eb' target='_blank'>Diploma</a> as a Fullstack Developer.<br/></h3>
+        <h3>I have a <a className='link' href='https://www.credential.net/abe70729-0419-4049-a752-62b032d231eb' target='_blank'>Diploma</a> as a Fullstack Developer.</h3>
         <h5>Below are the skills I have developed while in my current role.</h5>
       </div>
       <div className='skills-techstack'>

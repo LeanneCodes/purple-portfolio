@@ -26,3 +26,13 @@
     margin: auto;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 390px) {
+    .footer-container {
+        padding: 0;
+    }
+
+    .footer-container ul {
+        width: 30%;
+    }
+}

@@ -65,7 +65,15 @@
         margin: auto;
     }
 
+    .info {
+        width: 100%;
+    }
+
     .info h1 {
+        text-align: center;
+    }
+
+    .info h3 {
         text-align: center;
     }
 
@@ -75,6 +83,7 @@
     }
 
     .info button {
+        width: fit-content;
         margin: auto;
     }
 }
@@ -95,5 +104,13 @@
 
     .info {
         padding: 0rem;
+    }
+
+    .info p {
+        font-size: 1rem;
+    }
+
+    .info {
+        width: 100%;
     }
 }

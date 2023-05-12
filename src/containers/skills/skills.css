@@ -7,6 +7,7 @@
 
 .link {
     color: var(--paper-border);
+    display: inline-block;
 }
 
 .link:hover {
@@ -30,7 +31,7 @@
     font-weight: 600;
     text-align: center;
     font-size: 1.2rem;
-    margin-top: 1rem;
+    margin: 1rem 0 2rem;
 }
 
 .skills-techstack {
@@ -59,5 +60,11 @@
 @media screen and (max-width: 700px) {
     .skills-techstack {
         padding: 15px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .skills-container {
+        margin-bottom: 1rem;
     }
 }
