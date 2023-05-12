@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-color);
+  font-family: var(--text-font);
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.paper {
+  margin: 5rem;
+  padding: 5rem 5rem 0 5rem;
+  border: 1px solid var(--paper-border);
+  box-shadow: 30px 30px var(--paper-border);
+  background: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .paper {
+    margin: 3rem;
+    padding: 3rem;
+  }
+}
