@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 2rem;
+    padding: 0 2rem;
     min-height: 50vh;
-    border-top: 3px dashed var(--bg-color);
+    margin-bottom: 4rem;
 }
 
 .projects-header h1 {

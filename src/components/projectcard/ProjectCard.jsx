@@ -1,7 +1,7 @@
 import React from 'react'
 import './projectcard.css'
 
-const ProjectCard = ({ img, name, tech, summary, url  }) => {
+const ProjectCard = ({ img, name, tech, summary, url }) => {
   return (
     <div className='project-card'>
       <div className='project-image'>

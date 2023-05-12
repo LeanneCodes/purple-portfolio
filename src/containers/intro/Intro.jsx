@@ -7,7 +7,8 @@ const Intro = () => {
     <div className='intro-container' id='home'>
       <div className='info'>
         <h1>Leanne Goldsmith</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus suscipit, eius dolor sunt magni nulla voluptatem, quis obcaecati asperiores impedit corrupti fugit enim. Vitae vel quisquam, ratione eveniet sunt reiciendis.</p>
+        <h3>Junior Frontend Developer</h3>
+        <p>I have a diploma as a Fullstack eCommerce developer, with a passion for JavaScript, ReactJs and Figma.<br/><br/>In my current role, I build display banner ads for a range of clients, using designs from Figma and Photoshop and I find great joy in this.<br/><br/>Therefore, I am looking for opportunities to grow as a FrontEnd developer.</p>
         <button type='button'><a href='#'>Download CV</a></button>
       </div>
       <div className='intro-image'>

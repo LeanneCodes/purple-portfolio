@@ -1,0 +1,6 @@
+.icon {
+    font-size: 2rem;
+    color: var(--paper-border);
+    cursor: pointer;
+    text-align: center;
+}
