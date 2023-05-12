@@ -1,0 +1,20 @@
+.tech-container {
+    height: 100px;
+    margin: 10px 0 0 10px;
+    padding: 10px;
+}
+.icon {
+    font-size: xxx-large;
+    color: var(--paper-border);
+}
+
+.tech-container p {
+    font-size: large;
+}
+
+.tech-container:hover {
+	scale: 1.2;
+}
+
+
+  

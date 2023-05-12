@@ -8,14 +8,14 @@
 
 .intro-image img {
     display: flex;
-    width: 70%;
+    width: 50%;
     margin-left: auto;
 }
 
 .info {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 60%;
     padding: 2rem;
 }
 
@@ -38,6 +38,10 @@
     background: var(--paper-border);
     border-radius: 22px;
     color: #fff;
+}
+
+.info button:hover {
+    scale: 1.2;
 }
 
 .info button a {

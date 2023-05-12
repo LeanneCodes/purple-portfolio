@@ -1,4 +1,15 @@
 import React from 'react'
+import TechStack from '../../components/techstack/TechStack'
+import { SiJavascript } from "react-icons/si";
+import { SiHtml5 } from "react-icons/si";
+import { SiCss3 } from "react-icons/si";
+import { SiAdobephotoshop } from "react-icons/si";
+import { SiReact } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { SiGreensock } from "react-icons/si";
+import { SiFigma } from "react-icons/si";
+import { SiGithub } from "react-icons/si";
+import { SiVisualstudio } from "react-icons/si";
 import './skills.css'
 
 const Skills = () => {
@@ -6,19 +17,19 @@ const Skills = () => {
     <div className='skills-container' id='skills'>
       <div className='skills-header'>
         <h1>My Skillset</h1>
-        <h3>Technologies I'm proficient in</h3>
+        <h3>Technologies I have used in my current role and when I achieved a <a className='link' href='https://www.credential.net/abe70729-0419-4049-a752-62b032d231eb' target='_blank'>Diploma</a> as a Fullstack Developer</h3>
       </div>
       <div className='skills-techstack'>
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>7</div>
-        <div>8</div>
-        <div>9</div>
-        <div>10</div>
+        <div><TechStack image={<SiHtml5 />} name="HTML5"/></div>
+        <div><TechStack image={<SiCss3 />} name="CSS3"/></div>
+        <div><TechStack image={<SiTailwindcss />} name="Tailwind"/></div>
+        <div><TechStack image={<SiJavascript />} name="JavaScript"/></div>
+        <div><TechStack image={<SiReact />} name="ReactJs"/></div>
+        <div><TechStack image={<SiGreensock />} name="GSAP"/></div>
+        <div><TechStack image={<SiFigma />} name="Figma"/></div>
+        <div><TechStack image={<SiAdobephotoshop />} name="Photoshop"/></div>
+        <div><TechStack image={<SiGithub />} name="GitHub"/></div>
+        <div><TechStack image={<SiVisualstudio />} name="VS Code"/></div>
       </div>
     </div>
   )
