@@ -7,7 +7,6 @@ const Menu = () => (
     <p><a href='#home'>Home</a></p>
     <p><a href='#skills'>Skills</a></p>
     <p><a href='#projects'>Projects</a></p>
-    <p><a href='#contact'>Contact</a></p>
     <p><a href='cv.pdf' target='_blank'>CV</a></p>
   </>
 )
