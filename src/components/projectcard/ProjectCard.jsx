@@ -11,15 +11,9 @@ const ProjectCard = ({ img, name, tech, summary, code, live }) => {
       </div>
       <div className='project-content'>
         <div className='project-info'>
-          <h2>{name}</h2>
-          <h4>{tech}</h4>
+          <h3>{name}</h3>
+          <h5>{tech}</h5>
           <p>{summary}</p>
-        </div>
-        <div className='external-link'>
-          <button>
-            <p><SiGithub/> </p>
-            <a className="pc-icons" target='_blank'>{code}</a>
-          </button>
         </div>
       </div>
     </div>

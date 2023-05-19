@@ -30,19 +30,41 @@ const Projects = () => {
         <h2>My <span className='special-text'>Projects</span></h2>
       </div>
       <div className='projects'>
-        <div>
+        <div className='projects-card'>
           <ProjectCard
             img={P1}
             name="Designing a website from a Figma design"
             tech="HTML5, CSS3, JS, ReactJs, Figma"
             summary="Decription here."
           />
-          <a href='https://github.com/LeanneCodes/GPT-3' target='_blank'>
-            <Github code="View Code" />
-          </a>
-          <a href='https://github.com/LeanneCodes/GPT-3' target='_blank'>
-            <LiveProject live="Live Project" />
-          </a>
+          <div className='links'>
+            <a href='https://github.com/LeanneCodes/GPT-3' target='_blank'><Github code="&nbsp; View Code" /></a>
+            <a href='https://github.com/LeanneCodes/GPT-3' target='_blank'><LiveProject live="&nbsp; Live Project" /></a>
+          </div>
+        </div>
+        <div className='projects-card'>
+          <ProjectCard
+            img={P1}
+            name="Designing a website from a Figma design"
+            tech="HTML5, CSS3, JS, ReactJs, Figma"
+            summary="Decription here."
+          />
+          <div className='links'>
+            <a href='https://github.com/LeanneCodes/GPT-3' target='_blank'><Github code="&nbsp; View Code" /></a>
+            <a href='https://github.com/LeanneCodes/GPT-3' target='_blank'><LiveProject live="&nbsp; Live Project" /></a>
+          </div>
+        </div>
+        <div className='projects-card'>
+          <ProjectCard
+            img={P1}
+            name="Designing a website from a Figma design"
+            tech="HTML5, CSS3, JS, ReactJs, Figma"
+            summary="Decription here."
+          />
+          <div className='links'>
+            <a href='https://github.com/LeanneCodes/GPT-3' target='_blank'><Github code="&nbsp; View Code" /></a>
+            <a href='https://github.com/LeanneCodes/GPT-3' target='_blank'><LiveProject live="&nbsp; Live Project" /></a>
+          </div>
         </div>
       </div>
       
