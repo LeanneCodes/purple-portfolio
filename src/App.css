@@ -21,7 +21,7 @@ a {
   border: 1px solid var(--bg-color);
   box-shadow: 30px 30px var(--paper-border);
   background: #fff;
-}
+} 
 
 .hr {
   width: 1%;
@@ -30,6 +30,37 @@ a {
   box-shadow: 0 2px 4px var(--paper-border);
   margin: 2rem auto;
   border-radius: 50%;
+}
+
+.special-text {
+  font-family: var(--special-text);
+  color: var(--paper-border);
+  font-size: 2.35rem;
+  letter-spacing: 1px;
+}
+
+button {
+  font-family: var(--header-font);
+  font-size: 1em;
+  padding: 0.5rem;
+  width: 35%;
+  border: 1px solid var(--paper-border);
+  background: var(--paper-border);
+  border-radius: 22px;
+  color: #fff;
+}
+
+button:hover {
+  scale: 1.2;
+}
+
+button a {
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--header-font);
+  font-weight: 500;
 }
 
 @media screen and (max-width: 1440px) {

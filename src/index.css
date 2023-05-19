@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
 
 :root {
   --bg-color: #C9A7EB;
@@ -8,8 +8,9 @@
   --pale-yellow: #FFF8E1;
   --card: #E7E6F7;
   --link: #2A2F4F;
-  --header-font: 'Montserrat', sans-serif;
-  --text-font: 'Zilla Slab', serif;
+  --header-font: 'Zilla Slab', serif;
+  --text-font: 'Montserrat', sans-serif;
+  --special-text: 'Londrina Shadow', cursive;
   --gradient-bar: linear-gradient(to right bottom, #c9a7eb, #bda7ec, #b0a8ec, #a4a8eb, #97a8ea, #92a5e8, #8da2e5, #889fe3, #8a98df, #8d92db, #908bd6, #9384d1);
 }
 

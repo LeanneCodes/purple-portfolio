@@ -1,18 +1,19 @@
 import React from 'react'
 import './intro.css'
-import Leanne from '../../assets/leanne.png'
 
 const Intro = () => {
   return (
     <div className='intro-container' id='home'>
-      <div className='info'>
-        <h1>Leanne Goldsmith</h1>
+      <div className='intro'>
+        <h1>Leanne <span className='special-text'>Goldsmith</span></h1>
         <h3>Junior Frontend Developer</h3>
-        <p>I have a diploma as a Fullstack eCommerce developer, with a passion for JavaScript, ReactJs and Figma.<br/><br/>In my current role, I build display banner ads for a range of clients, using designs from Figma and Photoshop and I find great joy in this.<br/><br/>Therefore, I am looking for opportunities to grow as a FrontEnd developer.</p>
-        <button type='button'><a href='cv.pdf' target='_blank'>Preview CV</a></button>
       </div>
-      <div className='intro-image'>
-        <img src={Leanne} alt="headshot" />
+      <div className='topline'>
+        <p>Driven by my passion for blending technology and design, I am enthusiastic about progressing as a Junior Frontend Developer to create visually captivating and user-centric digital experiences.</p>
+        <button type='button'><a href='cv.pdf' target='_blank'>Preview CV</a></button>
+        <div className='intro-arrow'>
+          <div class="down-arrow"></div>
+        </div>
       </div>
     </div>
   )
