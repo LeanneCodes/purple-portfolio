@@ -1,4 +1,4 @@
-.projects-container {
+/* .projects-container {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -47,4 +47,19 @@
     .projects-container {
         padding: 0;
     }
+} */
+
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+    min-height: 100vh;
+}
+
+.projects-header h2, .projects-header span {
+    font-size: 4rem;
+    text-align: center;
 }

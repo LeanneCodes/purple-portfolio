@@ -16,14 +16,11 @@ function App() {
           <About />
         </div>
         <div>
-          <div className="hr"></div>
           <Skills />
         </div>
         <div>
-        <div className="hr"></div>
           <Projects />
         </div>
-        <div className="hr"></div>
         <div>
         < Footer />
         </div>

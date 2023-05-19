@@ -7,8 +7,8 @@ import { SiLinkedin } from "react-icons/si";
 const Footer = () => {
   return (
     <div className='footer-container'>
-      <div>
-        <h1>Leanne Goldsmith</h1>
+      <div className='footer'>
+        <h1>Leanne <span className='special-text'>Goldsmith</span></h1>
         <h3>Junior Frontend Developer</h3>
         <ul>
           <li><a href="https://github.com/LeanneCodes" target='_blank'><FooterIcons icon={ <SiGithub/>}/></a></li>

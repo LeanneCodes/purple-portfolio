@@ -1,6 +1,5 @@
 import React from 'react'
 import './about.css'
-import profile from '../../assets/post-it-note.png'
 import stamp from '../../assets/stamp.png'
 
 const About = () => {
@@ -14,7 +13,6 @@ const About = () => {
             <p><a href='#skills' style={{ color: '#9384D1', fontWeight: 600 }}>Below</a> are the technologies I am proficient in.</p>
         </div>
         <div className='about-image'>
-            <img src={profile} alt="Leanne" className='post-it'/>
             <img src={stamp} alt="Leanne" className='stamp'/>
         </div>
     </div>

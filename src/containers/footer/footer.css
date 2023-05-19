@@ -8,11 +8,9 @@
     justify-content: flex-end;
 }
 
-.footer-container h1 {
+.footer h1, .footer span {
+    font-size: 2rem;
     text-align: center;
-    font-family: var(--header-font);
-    font-weight: 500;
-    font-size: 1.2rem;
 }
 
 .footer-container h3 {
@@ -23,7 +21,7 @@
 .footer-container ul {
     list-style: none;
     display: flex;
-    width: 8%;
+    width: 10%;
     margin: auto;
     justify-content: space-around;
 }
