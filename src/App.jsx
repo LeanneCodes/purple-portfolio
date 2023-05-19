@@ -1,5 +1,5 @@
 import './App.css'
-import { Footer, Intro, Navbar, Projects, Skills } from './containers'
+import { Footer, Intro, Navbar, Projects, Skills, About } from './containers'
 
 function App() {
 
@@ -11,6 +11,9 @@ function App() {
         </div>
         <div>
           <Intro />
+        </div>
+        <div>
+          <About />
         </div>
         <div>
           <div className="hr"></div>
