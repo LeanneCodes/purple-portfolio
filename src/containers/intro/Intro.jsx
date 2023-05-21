@@ -9,7 +9,7 @@ const Intro = () => {
         <h3>Junior Frontend Developer</h3>
       </div>
       <div className='topline'>
-        <p>Driven by my passion for blending technology and design, I am enthusiastic about progressing as a Junior Frontend Developer to create visually captivating and user-centric digital experiences.</p>
+        <p style={{ maxWidth: '70%', margin: '1rem auto' }}>Driven by my passion for blending technology and design, I am enthusiastic about creating visually captivating and user-centric digital experiences.</p>
         <button type='button'><a href='cv.pdf' target='_blank'>Preview CV</a></button>
         <div className='intro-arrow'>
           <div className="down-arrow"></div>

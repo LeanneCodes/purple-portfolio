@@ -17,7 +17,7 @@ const Skills = () => {
     <div className='skills-container' id='skills'>
       <div className='skills-header'>
         <h2>My <span className='special-text'>Skills</span></h2>
-        <h3>Skills I have developed during my Diploma course and in my current role.</h3>
+        <h3 style={{ marginTop: '1rem' }}>Current techstack that I engage with most frequently, either through my current role or via personal projects.</h3>
       </div>
       <div className='skills-flex'>
         <div className='skills-techstack grid-container'>
